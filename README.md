@@ -1,6 +1,13 @@
 # Github Actions to Docker Registry
 
 This example shows how to use [Github Actions](https://github.com/features/actions) to build and push a Docker image to a [Docker registry](https://hub.docker.com/).
+It pushes a "hello, world!" application to https://hub.docker.com/r/wcygan/hello-world.
+
+It can be pulled with this command:
+
+```bash
+docker pull wcygan/hello-world
+```
 
 ## How?
 
