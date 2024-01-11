@@ -2,7 +2,7 @@ FROM lukemathwalker/cargo-chef:latest-rust-1.72 as builder
 
 COPY . .
 
-RUN cargo build --bin github-a  ctions-to-docker-registry
+RUN cargo build --bin github-actions-to-docker-registry
 
 FROM debian:bookworm
 
